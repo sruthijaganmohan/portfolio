@@ -1,0 +1,44 @@
+.menu-bar {
+    float: right;
+    font-family: 'Bakbak One', sans-serif;
+    background-color: #3E3DC4;
+    color: #F9F8FF;
+    margin-top: -400px;
+    margin-left: 895px;
+    height: 550px;
+    width: 600px;
+    z-index: 1;
+    position: absolute;
+}
+
+.li {
+    list-style: none;
+    font-size: 84px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.li:hover {
+    color: #F667D2;;
+}
+
+#about {
+    margin-top: 90px;
+}
+
+.menu-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-close {
+    background-color: transparent;
+    color: #F9F8FF;
+    border: none;
+    font-family: 'Bakbak One', sans-serif;
+    float: right;
+    margin-top: 6px;
+    margin-right: 41.5px;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
