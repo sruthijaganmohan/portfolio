@@ -1,0 +1,47 @@
+.project {
+    background-color: #3E3DC4;
+    padding: 40px;
+    height: 850px;
+    margin-left: 40px;    
+}
+
+#images {
+    height: 250px;
+    width: 450px;
+    opacity: 30%;
+}
+
+.project-desc {
+    width: 450px;
+    overflow-x: auto;
+    white-space: normal;
+    overflow-wrap: break-word;
+    
+  }
+  
+#project-name {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 35px;
+    color: #F9F8FF;
+    height: 140px;
+}
+
+#project-skills {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: #F667D2;
+    height: 120px;
+}
+
+#project-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22.5px;
+    font-weight: 600;
+    color: #F9F8FF;
+    text-align: justify;
+}
+
+#project-link {
+    text-decoration: none;
+}

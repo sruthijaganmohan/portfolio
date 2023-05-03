@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import Menu from './components/Menu';
+import { Project } from './project';
+import { PROJECTS } from './projects';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +33,12 @@ const App = () => {
       </div>
 
       <div id='projects-section'>
-        <h1>projects</h1>
+        <h1 className='projects-header'>PROJECTS</h1>
+        <div className='all-projects'>
+        {PROJECTS.map((project) => (
+                        <Project data={project} />
+        ))}
+        </div>
       </div>
 
       <div id='contact-section'>
