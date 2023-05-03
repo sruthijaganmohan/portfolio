@@ -9,7 +9,7 @@ const Menu = ({ onClose }) => {
       </div>
       <ul>
         <li id='projects' className='li'><a className='menu-links' href="#projects-section">PROJECTS</a></li>
-        <li id='contact' className='li'><a className='menu-links' href="#projects-section">CONTACT</a></li>
+        <li id='contact' className='li'><a className='menu-links' href="#contact-section">CONTACT</a></li>
       </ul>
     </div>
   );
