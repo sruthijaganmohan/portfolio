@@ -45,7 +45,7 @@ const App = () => {
       <div id='contact-section'>
         <h1 className='contact-header'>CONTACT</h1>
         <div className='contact-icons'>
-          <a href='mailto:sruthi12jagan@gmail.com'><PaperPlaneTilt className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
+          <a href='mailto:sruthi12jagan@gmail.com'><PaperPlaneTilt size={120} color="#3e3dc4" weight="fill" className='contact' /></a>
           <a href='https://www.linkedin.com/in/sruthi-jaganmohan-301a4620a/' target='_blank'><LinkedinLogo className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
           <a href='https://github.com/sruthijaganmohan' target='_blank'><GithubLogo className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
         </div>

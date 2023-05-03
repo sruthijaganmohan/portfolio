@@ -123,10 +123,13 @@ body {
 }
 
 
-
 /* responsiveness */
 
-/* @media (max-width: 668px) {
+@media (max-width: 668px) {
+
+  #about-section {
+    height: 60vh;
+  }
 
   .portfolio-website {
     visibility: hidden;
@@ -143,24 +146,53 @@ body {
     font-size: 15px;
     margin-top: 20px;
     margin-left: 25px;
-    width: 250px;
+    width: 300px;
   }
 
   .description {
     font-size: 15px;
     margin-top: 20px;
     margin-left: 25px;
-    width: 250px;
+    width: 350px;
+    text-align: justify;
   }
 
   .menu {
     visibility: hidden;
   }
 
-
+  #projects-section {
+    height: 120vh;
+  }
 
   .projects-header {
     font-size: 35px;
+    margin-left: 25px;
   }
 
-} */
+  .all-projects {
+    margin-left: -15px;
+  }
+
+  #contact-section {
+    height: 40vh;
+  }
+
+  .contact-header {
+    font-size: 35px;
+    margin-left: 25px;
+  }
+
+  .contact-icons {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .contact {
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+
+  }
+
+}
