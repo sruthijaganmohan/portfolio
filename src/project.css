@@ -2,7 +2,7 @@
     background-color: #3E3DC4;
     padding: 40px;
     height: 850px;
-    margin-left: 40px;    
+    margin-left: 40px;
 }
 
 #images {
@@ -15,9 +15,9 @@
     overflow-x: auto;
     white-space: normal;
     overflow-wrap: break-word;
-    
-  }
-  
+
+}
+
 #project-name {
     font-family: 'Bakbak One', sans-serif;
     font-size: 35px;
@@ -63,21 +63,21 @@
         overflow-x: auto;
         white-space: normal;
         overflow-wrap: break-word;
-        
-      }
-      
+
+    }
+
     #project-name {
         font-size: 20px;
         height: 70px;
     }
-    
+
     #project-skills {
         font-size: 15px;
         height: 70px;
     }
-    
+
     #project-description {
         font-size: 15px;
     }
-    
+
 }

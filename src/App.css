@@ -81,9 +81,9 @@ body {
   margin-top: 100px;
 }
 
-.all-projects > * {
-  display:inline-block;
-  vertical-align:middle;
+.all-projects>* {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* contact */
@@ -105,16 +105,24 @@ body {
 }
 
 .contact:hover {
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-45px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-45px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 
@@ -153,7 +161,7 @@ body {
     font-size: 15px;
     margin-top: 20px;
     margin-left: 25px;
-    width: 350px;
+    width: 300px;
     text-align: justify;
   }
 

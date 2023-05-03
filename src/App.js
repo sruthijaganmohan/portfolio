@@ -24,21 +24,21 @@ const App = () => {
 
         <h1 className='sruthi'>SRUTHI JAGANMOHAN</h1>
         <h1 className='cs'>computer science engineering student</h1>
-        <p className='description'>I am an ambitious 21-year-old, who's passionate 
+        <p className='description'>I am an ambitious 21-year-old, who's passionate
           about exploring the vast world of web development and machine learning.
-          With a curious mind and a determination to learn, I am eager to carve 
+          With a curious mind and a determination to learn, I am eager to carve
           my own path in these exciting fields.</p>
 
         <button className='menu' onClick={toggleMenu}>MENU</button>
-        {isMenuOpen && <Menu onClose={closeMenu}  />}
+        {isMenuOpen && <Menu onClose={closeMenu} />}
       </div>
 
       <div id='projects-section'>
         <h1 className='projects-header'>PROJECTS</h1>
         <div className='all-projects'>
-        {PROJECTS.map((project) => (
-          <Project data={project} />
-        ))}
+          {PROJECTS.map((project) => (
+            <Project data={project} />
+          ))}
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const App = () => {
           <a href='https://github.com/sruthijaganmohan' target='_blank'><GithubLogo className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
         </div>
       </div>
-      
+
     </div>
   );
 }
