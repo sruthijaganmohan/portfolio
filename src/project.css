@@ -8,7 +8,6 @@
 #images {
     height: 250px;
     width: 450px;
-    opacity: 30%;
 }
 
 .project-desc {
@@ -45,3 +44,12 @@
 #project-link {
     text-decoration: none;
 }
+
+
+/* responsiveness */
+
+/* @media (max-width: 668px) {
+    #images {
+
+    }
+} */

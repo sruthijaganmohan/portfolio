@@ -5,7 +5,7 @@
     color: #F9F8FF;
     margin-top: -400px;
     margin-left: 895px;
-    height: 550px;
+    height: 450px;
     width: 600px;
     z-index: 1;
     position: absolute;
@@ -22,7 +22,7 @@
     color: #F667D2;;
 }
 
-#about {
+#projects {
     margin-top: 90px;
 }
 
@@ -43,3 +43,4 @@
     margin-bottom: 50px;
     font-weight: 900;
 }
+

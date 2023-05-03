@@ -3,6 +3,7 @@ import './App.css';
 import Menu from './components/Menu';
 import { Project } from './project';
 import { PROJECTS } from './projects';
+import { PaperPlaneTilt, LinkedinLogo, GithubLogo } from "phosphor-react";
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,13 +37,18 @@ const App = () => {
         <h1 className='projects-header'>PROJECTS</h1>
         <div className='all-projects'>
         {PROJECTS.map((project) => (
-                        <Project data={project} />
+          <Project data={project} />
         ))}
         </div>
       </div>
 
       <div id='contact-section'>
-        <h1>contact</h1>
+        <h1 className='contact-header'>CONTACT</h1>
+        <div className='contact-icons'>
+          <a href='mailto:sruthi12jagan@gmail.com'><PaperPlaneTilt className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
+          <a href='https://www.linkedin.com/in/sruthi-jaganmohan-301a4620a/' target='_blank'><LinkedinLogo className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
+          <a href='https://github.com/sruthijaganmohan' target='_blank'><GithubLogo className='contact' size={120} color="#3E3DC4" weight="fill" /></a>
+        </div>
       </div>
       
     </div>
