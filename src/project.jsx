@@ -4,6 +4,7 @@ import './project.css';
 export const Project = (props) => {
     const { id, projectImage, projectName, projectSkills, projectDescription, projectLink } = props.data;
 
+
     return (
         <div className="project-container">
             <a target="_blank" id="project-link" href={projectLink}>

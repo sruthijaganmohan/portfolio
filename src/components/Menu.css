@@ -3,13 +3,19 @@
     font-family: 'Bakbak One', sans-serif;
     background-color: #3E3DC4;
     color: #F9F8FF;
-    margin-top: -400px;
+    margin-top: -332px;
     margin-left: 895px;
     height: 450px;
     width: 600px;
     z-index: 1;
     position: absolute;
 }
+
+.menu-bar:hover {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    transform: scale(1.05, 1.05);
+  }
+
 
 .li {
     list-style: none;
