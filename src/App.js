@@ -24,7 +24,7 @@ const App = () => {
         <h1 className='portfolio-website'>PORTFOLIO WEBSITE</h1>
 
         <h1 className='sruthi'>SRUTHI JAGANMOHAN</h1>
-        <h1 className='cs'>computer science engineering student</h1>
+        <h1 className='cs'>computer science engineering graduate</h1>
 
         <button className='menu' onClick={toggleMenu}>MENU</button>
         {isMenuOpen && <Menu onClose={closeMenu} />}
